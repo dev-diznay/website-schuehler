@@ -1,0 +1,60 @@
+.layout-header-wrapper {
+  /*   Verlauf im Header   */
+  background-image: -webkit-linear-gradient(left,#e66465 0%,#9198e5 50%,#e66465 100%);
+
+  /* DEBUG ONLY DEBUG ONLY
+        Geht einfach darum, dass der Header eine gewisse Größe hat   */
+  /* Min-Height: 100 pixel. 6.25em = 100 Pixel */
+  min-height: 7.25em;
+  margin: 0;
+  padding: 0;
+}
+
+.layout-header {
+  color: #fffeff;
+  padding: 0.5em 0 0;
+  min-height: inherit;
+}
+
+.layout-header {
+  /*float: right;*/
+  /*margin-top: 0.357em */
+}
+
+.site-branding {
+  font-family: "Bebas Regular";
+  font-size: 42px;
+  text-align: center;
+}
+
+.layout-menu {
+  width: 300px;
+  margin: auto;
+  padding: 0.5em 0 0.5em;
+
+  font-family: Avenir;
+  font-weight: 800;
+  font-size: 18px;
+}
+
+.flex-container-menu {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+
+  justify-content: space-between;
+}
+
+.flex-item a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.flex-item a:hover {
+
+  background: -webkit-linear-gradient(top,white 0%,white 100%);
+      background-position: 0 100%;
+      background-repeat: repeat-x;
+      background-size: 3px 3px;
+}

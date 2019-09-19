@@ -1,0 +1,70 @@
+.w3-content {
+  position: relative;
+}
+
+.mySlides {
+  display:none;
+
+  width: 100%;
+}
+
+.w3-left, .w3-right, .w3-badge {
+  cursor:pointer;
+}
+
+.w3-badge {
+  height:13px;
+  width:13px;
+  padding:0;
+}
+
+.w3-button {
+  border:none;
+  display:inline-block;
+  padding:8px 16px;
+  vertical-align:middle;
+  overflow:hidden;
+  text-decoration:none;
+  color:inherit;
+  background-color:inherit;
+  text-align:center;
+  cursor:pointer;
+  white-space:nowrap;
+}
+
+.w3-display-left {
+  position:absolute;
+  top:50%;
+  left:0%;
+  transform:translate(0%,-50%);
+  -ms-transform:translate(-0%,-50%);
+}
+
+.w3-display-right {
+  position:absolute;
+  top:50%;
+  right:0%;
+  transform:translate(0%,-50%);
+  -ms-transform:translate(0%,-50%);
+}
+
+.w3-black,.w3-hover-black:hover{
+  color:#fff!important;
+  background-color:#000!important;
+
+  border-color: white;
+  border-style: solid;
+  border-width: thin;
+}
+
+.w3-black a {
+  color: inherit;
+}
+
+.w3-display-bottommiddle {
+  position:absolute;
+  left:50%;
+  bottom:0;
+  transform:translate(-50%,0%);
+  -ms-transform:translate(-50%,0%);
+}

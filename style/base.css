@@ -1,0 +1,54 @@
+@font-face {
+  font-family: "Bebas Regular";
+  src: url(../lib/fonts/Bebas-Regular.otf);
+}
+
+@font-face {
+  font-family: Avenir;
+  src: url(../lib/fonts/Avenir.ttc);
+}
+
+@font-face {
+  font-family: "Arial Bold";
+  src: url(../lib/fonts/ArialBold.ttf);
+}
+
+@font-face {
+  font-family: "Arial Black";
+  src: url(../lib/fonts/ArialBlack.ttf);
+}
+
+@font-face {
+  font-family: "Arial";
+  src: url(../lib/fonts/Arial.ttf);
+}
+
+
+#page, #main-wrapper {
+  /* DEBUG only
+  background: #fff;*/
+
+  background-color: rgb(0,0,2);
+  color: white;
+}
+
+
+.layout-container {
+  box-sizing: border-box;
+  margin-left: 15%;
+  margin-right: 15%;
+
+  max-width: 1290px;
+}
+
+
+body {
+  margin: 0;
+  display: block;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  line-height: 1.5;
+}
+
+button:focus {
+  outline: 0;
+}

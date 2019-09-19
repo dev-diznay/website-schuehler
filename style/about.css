@@ -1,0 +1,58 @@
+.layout-about-wrapper {
+  margin-top: 5%;
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+
+  color: white;
+  font-family: "Arial";
+
+}
+
+.layout-about {
+  /*display: flex;*/
+  overflow: auto;
+}
+
+.layout-about-subhead {
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.about-headline {
+  font-family: "Arial Black";
+}
+
+.about-left-column {
+  float: left;
+  width: 49%;
+}
+
+.about-right-column {
+  float: right;
+  width: 49%;
+}
+
+#about table {
+  width: 100%;
+  color: white;
+}
+
+.about-left-column-images {
+  width: 90%;
+}
+
+#about ul {
+  list-style-type:none;
+  margin: auto;
+  padding: 0;
+  overflow: hidden;
+  /* background-color: #333; */
+  display: flex;
+  justify-content: space-between;
+}
+
+#about li {
+  background-color: burlywood;
+  width: 7.5em;
+  height: 7.5em;
+}
