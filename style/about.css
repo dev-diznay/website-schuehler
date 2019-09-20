@@ -53,13 +53,11 @@
   margin: auto;
   padding: 0;
   overflow: hidden;
-  /* background-color: #333; */
   display: flex;
   justify-content: space-between;
 }
 
 #about li {
-  background-color: burlywood;
-  width: 7.5em;
-  height: 7.5em;
+  width: 120px;
+  height: 120px;
 }
