@@ -62,47 +62,73 @@ main
       <div id="main-wrapper" class="layout-main-wrapper layout-container">
         <div id="main" class="layout-main">
 
+        <!--
+        SLIDESHOW
+        -->
         <div class="w3-content w3-display-container">
           <img class="mySlides" src="lib/images/slideshow/blue-devils/1.jpg" style="width:100%">
           <img class="mySlides" src="lib/images/slideshow/blue-devils/2.jpg" style="width:100%">
           <img class="mySlides" src="lib/images/slideshow/blue-devils/3.jpg" style="width:100%">
           <img class="mySlides" src="lib/images/slideshow/blue-devils/4.jpg" style="width:100%">
-          <video class="mySLides" src="lib/videos/hudl1.mp4" controls>
-            Ihr Browser kann dieses Video nicht wiedergeben.<br/>
-            Dieser Film zeigt eine Demonstration des video-Elements.
-            Sie können ihn unter <a href="#">Link-Addresse</a> abrufen.
-          </video>
+          <video class="mySLides" src="lib/videos/hudl1.mp4" controls></video>
+          <video class="mySLides" src="lib/videos/hudl2.mp4" controls></video>
+          <video class="mySLides" src="lib/videos/hudl3.mp4" controls></video>
+          <video class="mySLides" src="lib/videos/hudl4.mp4" controls></video>
+          <video class="mySLides" src="lib/videos/hudl5.mp4" controls></video>
+          <video class="mySLides" src="lib/videos/hudl6.mp4" controls></video>
+          <video class="mySLides" src="lib/videos/hudl7.mp4" controls></video>
 
-          <!--<div class="w3-center w3-display-bottommiddle" style="width:100%">-->
-
+          <!-- NAV BUTTONS LEFT & RIGHT -->
             <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
             <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
 
-            <!--<span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
-            <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
-            <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
-          </div>-->
+          <!-- NAV BUTTOMS CIRCLES BOTTOM -->
+            <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle">
+              <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+              <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+              <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+              <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(4)"></span>
+              <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(5)"></span>
+              <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(6)"></span>
+              <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(7)"></span>
+              <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(8)"></span>
+              <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(9)"></span>
+              <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(10)"></span>
+              <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(11)"></span>
+            </div>
+
+            <script>
+              var slideIndex = 1;
+              showDivs(slideIndex);
+
+              function plusDivs(n) {
+                showDivs(slideIndex += n);
+              }
+
+              function currentDiv(n) {
+                showDivs(slideIndex = n);
+              }
+
+              function showDivs(n) {
+                var i;
+                var x = document.getElementsByClassName("mySlides");
+                var dots = document.getElementsByClassName("demo");
+                if (n > x.length) {slideIndex = 1}
+                if (n < 1) {slideIndex = x.length}
+
+                for (i = 0; i < x.length; i++) {
+                  x[i].style.display = "none";
+                }
+
+                for (i = 0; i < dots.length; i++) {
+                  dots[i].className = dots[i].className.replace(" w3-white", "");
+                }
+
+                x[slideIndex-1].style.display = "block";
+                dots[slideIndex-1].className += " w3-white";
+              }
+            </script>
         </div>
-
-          <script>
-          var slideIndex = 1;
-          showDivs(slideIndex);
-
-          function plusDivs(n) {
-          showDivs(slideIndex += n);
-          }
-
-          function showDivs(n) {
-          var i;
-          var x = document.getElementsByClassName("mySlides");
-          if (n > x.length) {slideIndex = 1}
-          if (n < 1) {slideIndex = x.length}
-          for (i = 0; i < x.length; i++) {
-            x[i].style.display = "none";
-          }
-          x[slideIndex-1].style.display = "block";
-          }
-          </script>
 
 
           <div id="about-wrapper" class="layout-about-wrapper">
