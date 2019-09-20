@@ -1,12 +1,13 @@
 .layout-footer-wrapper {
-  background-image: -webkit-linear-gradient(left,rgb(255,150,255) 0%,white 20%,rgb(178,178,178) 47%, rgb(255,150,255) 100%);
-  padding: 25px 0 25px;
+  background-color: white;;
+  padding: 15px 0 15px;
   font-family: "Arial Bold";
   font-size: 18px;
   color: white;
 }
 
 .layout-footer {
+  color: black;
   /*Center images and text */
   height: 30px;
   line-height: 30px;
@@ -17,13 +18,13 @@
   padding: 0;
   margin: auto;
 
-  display: flex;
-  justify-content: center;
+  /*display: flex;
+  justify-content: center;*/
 }
 
 #footer li {
   float:left;
-  padding: 0 0 0 50px;
+  padding: 0 50px 0 0;
 }
 
 #footer a {
