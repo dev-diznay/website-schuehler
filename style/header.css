@@ -3,9 +3,6 @@
   background-image: -webkit-linear-gradient(left,rgb(255, 150, 255) 0%,white 20%,rgb(178,178,178) 47%, rgb(255, 150, 255) 100%);
 
 r255g150b 0% weiß 20% r178g178b178 47% rosa 100%
-  /* DEBUG ONLY DEBUG ONLY
-        Geht einfach darum, dass der Header eine gewisse Größe hat   */
-  /* Min-Height: 100 pixel. 6.25em = 100 Pixel */
   min-height: 7.25em;
   margin: 0;
   padding: 0;
@@ -15,11 +12,6 @@ r255g150b 0% weiß 20% r178g178b178 47% rosa 100%
   color: #fffeff;
   padding: 0.5em 0 0;
   min-height: inherit;
-}
-
-.layout-header {
-  /*float: right;*/
-  /*margin-top: 0.357em */
 }
 
 .site-branding {

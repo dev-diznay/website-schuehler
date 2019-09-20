@@ -9,19 +9,7 @@
   margin-bottom: 40px;
 }
 
-
-.layout-main-heading {
-  /*height: 30em;*/
-  /*position: relative;*/
-}
-
 .main-heading-headline {
-  /*DEBUG only
-  background-color: green; */
-
-  /*position: absolute;
-  bottom: 0;*/
-
   font-family: "Arial Black";
   font-size: 5em;
 
@@ -71,9 +59,6 @@
 }
 
 .main-content-headline {
-  /*DEBUG only
-  background-color: green; */
-
   position: absolute;
   bottom: 0;
 

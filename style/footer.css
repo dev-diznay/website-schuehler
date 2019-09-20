@@ -6,15 +6,7 @@
   color: white;
 }
 
-/*.layout-footer.layout-container {
-    margin-left: 35%;
-    margin-right: 10%;
-}*/
-
 .layout-footer {
-  /*DEBUG ONLY
-  background-color: orange; */
-
   /*Center images and text */
   height: 30px;
   line-height: 30px;
@@ -27,9 +19,6 @@
 
   display: flex;
   justify-content: center;
-
-  /*display: flex;
-  justify-content: space-between;*/
 }
 
 #footer li {

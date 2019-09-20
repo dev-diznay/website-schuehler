@@ -3,7 +3,6 @@
   margin: auto;
   padding: 0;
   overflow: hidden;
-  /* background-color: #333; */
   display: flex;
   justify-content: space-between;
   width: 300px;
@@ -22,8 +21,6 @@
 }
 
 #menu li a:hover, .dropdown:hover .dropbtn {
-  /*background-color: red;*/
-
   background: -webkit-linear-gradient(top,white 0%,white 100%);
       background-position: 0 90%;
       background-repeat: repeat-x;
