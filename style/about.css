@@ -13,6 +13,10 @@
   overflow: auto;
 }
 
+.layout-about p {
+  margin-block-start: 0;
+}
+
 .layout-about-subhead {
   font-size: 1em;
   font-weight: bold;
@@ -20,6 +24,8 @@
 
 .about-headline {
   font-family: "Arial Black";
+  font-size: 1.5em;
+  line-height: 2em;
 }
 
 .about-left-column {
@@ -35,6 +41,7 @@
 #about table {
   width: 100%;
   color: white;
+  padding-bottom: 1em;
 }
 
 .about-left-column-images {
