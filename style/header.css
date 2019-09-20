@@ -1,9 +1,6 @@
 .layout-header-wrapper {
   /*   Verlauf im Header   */
   background-image: -webkit-linear-gradient(left,rgb(255, 150, 255) 0%,white 20%,rgb(178,178,178) 47%, rgb(255, 150, 255) 100%);
-
-r255g150b 0% weiß 20% r178g178b178 47% rosa 100%
-  min-height: 7.25em;
   margin: 0;
   padding: 0;
 }

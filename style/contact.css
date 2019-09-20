@@ -1,0 +1,37 @@
+#page {
+  background-image: url(../lib/images/contact/background.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+
+  background-position-y: 70px;
+  background-position-x: 50%;
+}
+
+.contact-content, .impressum-content {
+  width: 25em;
+  color: white;
+  font-family: "Arial";
+}
+
+.impressum-content {
+  margin-top: 10%;
+}
+
+.contact-content img {
+  width: 70%;
+  margin-right: 30%;
+  margin-bottom: 2em;
+  border-style: solid;
+  border-color: white;
+  border-width: 1px;
+}
+
+.contact-content, .impressum-content p {
+  margin-block-start: 0;
+}
+
+.contact-headline, .impressum-headline {
+  font-family: "Arial Black";
+  font-size: 1.5em;
+  line-height: 2em;
+}
