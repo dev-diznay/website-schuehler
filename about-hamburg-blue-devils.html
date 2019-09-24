@@ -65,7 +65,7 @@ main
         <!--
         SLIDESHOW
         -->
-        <div class="w3-content w3-display-container">
+        <div class="slideshow-content slideshow-display-container">
           <video class="mySLides" src="lib/videos/hudl1.mp4" controls></video>
           <video class="mySLides" src="lib/videos/hudl2.mp4" controls></video>
           <video class="mySLides" src="lib/videos/hudl3.mp4" controls></video>
@@ -75,18 +75,18 @@ main
           <video class="mySLides" src="lib/videos/hudl7.mp4" controls></video>
 
           <!-- NAV BUTTONS LEFT & RIGHT -->
-            <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
-            <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+            <button class="slideshow-button slideshow-black slideshow-display-left" onclick="plusDivs(-1)">&#10094;</button>
+            <button class="slideshow-button slideshow-black slideshow-display-right" onclick="plusDivs(1)">&#10095;</button>
 
           <!-- NAV BUTTOMS CIRCLES BOTTOM -->
-            <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle">
-              <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
-              <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
-              <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
-              <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(4)"></span>
-              <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(5)"></span>
-              <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(6)"></span>
-              <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(7)"></span>
+            <div class="slideshow-center slideshow-container slideshow-section slideshow-large slideshow-text-white slideshow-display-bottommiddle">
+              <span class="slideshow-badge counter slideshow-border slideshow-transparent slideshow-hover-white" onclick="currentDiv(1)"></span>
+              <span class="slideshow-badge counter slideshow-border slideshow-transparent slideshow-hover-white" onclick="currentDiv(2)"></span>
+              <span class="slideshow-badge counter slideshow-border slideshow-transparent slideshow-hover-white" onclick="currentDiv(3)"></span>
+              <span class="slideshow-badge counter slideshow-border slideshow-transparent slideshow-hover-white" onclick="currentDiv(4)"></span>
+              <span class="slideshow-badge counter slideshow-border slideshow-transparent slideshow-hover-white" onclick="currentDiv(5)"></span>
+              <span class="slideshow-badge counter slideshow-border slideshow-transparent slideshow-hover-white" onclick="currentDiv(6)"></span>
+              <span class="slideshow-badge counter slideshow-border slideshow-transparent slideshow-hover-white" onclick="currentDiv(7)"></span>
             </div>
 
             <script>
@@ -104,7 +104,7 @@ main
               function showDivs(n) {
                 var i;
                 var x = document.getElementsByClassName("mySlides");
-                var dots = document.getElementsByClassName("demo");
+                var dots = document.getElementsByClassName("counter");
                 if (n > x.length) {slideIndex = 1}
                 if (n < 1) {slideIndex = x.length}
 
@@ -113,11 +113,11 @@ main
                 }
 
                 for (i = 0; i < dots.length; i++) {
-                  dots[i].className = dots[i].className.replace(" w3-white", "");
+                  dots[i].className = dots[i].className.replace(" slideshow-white", "");
                 }
 
                 x[slideIndex-1].style.display = "block";
-                dots[slideIndex-1].className += " w3-white";
+                dots[slideIndex-1].className += " slideshow-white";
               }
             </script>
         </div>
