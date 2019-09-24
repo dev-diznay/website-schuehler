@@ -52,7 +52,7 @@
 
 .w3-display-right {
   position:absolute;
-  top:25em;
+  top:50%;
   right:-5%;
   transform:translate(0%,-50%);
   -ms-transform:translate(0%,-50%);
